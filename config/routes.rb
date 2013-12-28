@@ -1,4 +1,6 @@
 Smartpie::Application.routes.draw do
+  get "students/new"
+
   get "users/new"
 
   # The priority is based upon order of creation:
